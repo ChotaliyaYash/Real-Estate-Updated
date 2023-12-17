@@ -26,6 +26,6 @@ To run this application locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone
+   git clone https://github.com/ChotaliyaYash/Real-Estate-Updated.git
    cd Real_Estate_MERN
    ```
