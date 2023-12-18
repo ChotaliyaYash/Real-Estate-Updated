@@ -15,8 +15,6 @@ export default function Header() {
 		navigate(`/search?${searchQuery}`);
 	};
 
-	console.log(import.meta.env.VITE_FIREBASE_API_KEY);
-
 	useEffect(() => {
 		const urlParams = new URLSearchParams(location.search);
 		const searchTermFromUrl = urlParams.get("searchTerm");
