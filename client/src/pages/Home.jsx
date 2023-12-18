@@ -71,8 +71,8 @@ export default function Home() {
 			<Swiper navigation>
 				{offerListings &&
 					offerListings.length > 0 &&
-					offerListings.map((listing) => (
-						<SwiperSlide>
+					offerListings.map((listing, index) => (
+						<SwiperSlide key={index}>
 							<div
 								style={{
 									background: `url(${listing.imageUrls[0]}) center no-repeat`,
